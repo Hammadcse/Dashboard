@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Tailwind output css -->
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="font-poppins bg-[#101010]">
+    <div class="bg-[#101010] p-[20px] flex w-full">
+        <!-- Sidebar starts -->
+        <aside class="min-w-[360px] grow-[1] pl-[60px] pt-[60px]">
+            <div class="mb-[118px]">
+                <div class="w-[72px] h-[72px] relative mb-[15px]">
+                    <img class="w-[72px] h-[72px] rounded-[10px]" src="./src/images/user.png" alt="user">
+                    <span class="absolute top-[-14px] right-[-12px] bg-[#DC3434] w-[29px] h-[29px] rounded-full text-[13px] font-semibold tracking-[0.21px] flex items-center justify-center text-[#fff]">4</span>
+                </div>
+                <h3 class="font-poppins text-[#fff] text-[30px] font-semibold leading-[35px] text-left capitalize mb-[5px]">Samantha</h3> 
+                <p class="text-[17px] leading-[27px] text-left opacity-[.75] text-[#fff]">samantha@email.com</p>
+            </div>
+            <ul class="flex flex-col gap-[35px]">
+                <li><a class="font-poppins text-[25px] font-semibold leading-[35px] text-[#fff] opacity-[.75] hover:opacity-[1] transition duration-150 ease-in-out" href="javascript:void(0)">Dashboard</a></li>
+                <li><a class="font-poppins text-[25px] font-semibold leading-[35px] text-[#fff]" href="javascript:void(0)">Expenses</a></li>
+                <li><a class="font-poppins text-[25px] font-semibold leading-[35px] text-[#fff] opacity-[.75] hover:opacity-[1] transition duration-150 ease-in-out" href="javascript:void(0)">Wallets</a></li>
+                <li><a class="font-poppins text-[25px] font-semibold leading-[35px] text-[#fff] opacity-[.75] hover:opacity-[1] transition duration-150 ease-in-out" href="javascript:void(0)">Summary</a></li>
+                <li><a class="font-poppins text-[25px] font-semibold leading-[35px] text-[#fff] opacity-[.75] hover:opacity-[1] transition duration-150 ease-in-out" href="javascript:void(0)">Accounts</a></li>
+                <li><a class="font-poppins text-[25px] font-semibold leading-[35px] text-[#fff] opacity-[.75] hover:opacity-[1] transition duration-150 ease-in-out" href="javascript:void(0)">Accounts</a></li>
+            </ul>
+        </aside>
+        <!-- Sidebar ends -->
+
+         <!-- main content starts -->
+         <main class="min-w-[1060px] grow-[2] bg-[#fff] flex rounded-[30px]">
+            <div class="grow-[2] px-[100px] pt-[70px] pb-[60px]">
+                <div class="flex items-center justify-between mb-[13px]">
+                    <h1 class="font-poppins text-[40px] font-semibold leading-[50px] tracking-[0.66] text-left text-[#262A41]">Expenses</h1>
+                    <ul class="flex items-center">
+                        <li class="mr-[-5px]">
+                            <a class="" href="#">
+                                <img class="w-[35px] h-[35px] rounded-full border-[2px] border-[#fff]" src="./src/images/c1.png" alt="customer">
+                            </a>
+                        </li>
+                        <li class="mr-[-5px]">
+                            <a class="" href="#">
+                                <img class="w-[35px] h-[35px] rounded-full border-[2px] border-[#fff]" src="./src/images/c2.png" alt="customer">
+                            </a>
+                        </li>
+                        <li class="mr-[-5px]">
+                            <a class="" href="#">
+                                <img class="w-[35px] h-[35px] rounded-full border-[2px] border-[#fff]" src="./src/images/c3.png" alt="customer">
+                            </a>
+                        </li>
+                        <li class="ml-[14px]">
+                            <a class="border-[#D2DCE8] border-[2px] rounded-full flex items-center justify-center w-[29px] h-[29px]" href="#">
+                                <img class="w-[8.86px] h-[8.86px]" src="./src/images/plus.png" alt="icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="font-poppins text-[16px] font-normal leading-[24px] tracking-[0.3428px] text-[#101010] mb-[45px] opacity-[.75] block">01 - 25 March, 2020</span>
+                <div class="vertical flex gap-[7px] mb-[54px]">
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">78%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px]">
+                            <span class="hidden">100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[16px] h-[60px]">
+                        <div class="relative w-[16px] h-full">
+                            <div class="progress-fill relative bg-[#157AFF] h-[50%] w-[16px] opacity-[20%]">
+                            <span class="hidden">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between border-b border-[#DEDEDE] border-opacity-[30%] pb-[10px] mb-[30px]">
+                    <h6 class="font-avenir text-[18px] font-bold leading-[30px] tracking-[0.30px] text-[#262A41]">Today</h6>
+                    <img class="cursor-pointer" src="./src/images/3dot.png" alt="icon">
+                </div>
+                <ul class="flex flex-col gap-[25px] mb-[65px]">
+                    <li class="flex items-center justify-between">
+                        <div class="flex items-center gap-[18px]">
+                            <div class="w-[48px] h-[48px] bg-[#32A7E2] flex items-center justify-center rounded-full">
+                                <img class="w-[16px]" src="./src/images/grocery.png" alt="icon">
+                            </div>
+                            <div>
+                                <span class="text-[16px] font-medium leading-[24px] tracking-[0.34] text-[#273240]mb-[8px] block font-poppins text-[#273240]">Grocery</span>
+                                <p class="font-poppins text-[14px] font-normal leading-[21px] tracking-[0.5px] block text-[#404852] opacity-[.75]">5:12 pm  •  Belanja di pasar</p>
+                            </div>
+                        </div>
+                        <span class="font-poppins text-[16px] font-semibold leading-[24px] tracking-[0.34] text-[#273240]">-326.800</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <div class="flex items-center gap-[18px]">
+                            <div class="w-[48px] h-[48px] bg-[#B548C6] flex items-center justify-center rounded-full">
+                                <img class="w-[16px]" src="./src/images/transport.png" alt="icon">
+                            </div>
+                            <div>
+                                <span class="text-[16px] font-medium leading-[24px] tracking-[0.34] text-[#273240]mb-[8px] block font-poppins text-[#273240]">Transportation</span>
+                                <p class="font-poppins text-[14px] font-normal leading-[21px] tracking-[0.5px] block text-[#404852] opacity-[.75]">5:12 pm  •  Naik bus umum</p>
+                            </div>
+                        </div>
+                        <span class="font-poppins text-[16px] font-semibold leading-[24px] tracking-[0.34] text-[#273240]">-15.000</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <div class="flex items-center gap-[18px]">
+                            <div class="w-[48px] h-[48px] bg-[#FF8700] flex items-center justify-center rounded-full">
+                                <img class="w-[16px]" src="./src/images/home.png" alt="icon">
+                            </div>
+                            <div>
+                                <span class="text-[16px] font-medium leading-[24px] tracking-[0.34] text-[#273240]mb-[8px] block font-poppins text-[#273240]">Housing</span>
+                                <p class="font-poppins text-[14px] font-normal leading-[21px] tracking-[0.5px] block text-[#404852] opacity-[.75]">5:12 pm  •  Bayar Listrik</p>
+                            </div>
+                        </div>
+                        <span class="font-poppins text-[16px] font-semibold leading-[24px] tracking-[0.34] text-[#273240]">-185.750</span>
+                    </li>
+                </ul>
+                <div class="flex items-center justify-between border-b border-[#DEDEDE] border-opacity-[30%] pb-[10px] mb-[30px]">
+                    <h6 class="font-avenir text-[18px] font-bold leading-[30px] tracking-[0.30px] text-[#262A41]">Monday, 23 March 2020</h6>
+                    <img class="cursor-pointer" src="./src/images/3dot.png" alt="icon">
+                </div>
+                <ul class="flex flex-col gap-[25px]">
+                    <li class="flex items-center justify-between">
+                        <div class="flex items-center gap-[18px]">
+                            <div class="w-[48px] h-[48px] bg-[#32A7E2] flex items-center justify-center rounded-full">
+                                <img class="w-[16px]" src="./src/images/food.png" alt="icon">
+                            </div>
+                            <div>
+                                <span class="text-[16px] font-medium leading-[24px] tracking-[0.34] text-[#273240]mb-[8px] block font-poppins text-[#273240]">Food and Drink</span>
+                                <p class="font-poppins text-[14px] font-normal leading-[21px] tracking-[0.5px] block text-[#404852] opacity-[.75]">5:12 pm  •  Makan Steak</p>
+                            </div>
+                        </div>
+                        <span class="font-poppins text-[16px] font-semibold leading-[24px] tracking-[0.34] text-[#273240]">-156.000</span>
+                    </li>
+                    <li class="flex items-center justify-between">
+                        <div class="flex items-center gap-[18px]">
+                            <div class="w-[48px] h-[48px] bg-[#B548C6] flex items-center justify-center rounded-full">
+                                <img class="w-[16px]" src="./src/images/entertain.png" alt="icon">
+                            </div>
+                            <div>
+                                <span class="text-[16px] font-medium leading-[24px] tracking-[0.34] text-[#273240]mb-[8px] block font-poppins text-[#273240]">Entertainment</span>
+                                <p class="font-poppins text-[14px] font-normal leading-[21px] tracking-[0.5px] block text-[#404852] opacity-[.75]">5:12 pm  •  Nonton Bioskop</p>
+                            </div>
+                        </div>
+                        <span class="font-poppins text-[16px] font-semibold leading-[24px] tracking-[0.34] text-[#273240]">-35.200</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="grow-[1] bg-[#F9FAFC] w-[350px] px-[50px] pt-[80px] pb-[60px] rounded-tr-[30px] rounded-br-[30px]">
+                <h6 class="text-[#262A41] font-avenir text-[20px] leading-[30px] tracking-[0.33] font-semibold mb-[42px]">Where your money go?</h6>
+                <ul class="flex flex-col gap-[36px] mb-[92px]">
+                    <li>
+                        <h5 class="font-poppins text-[13px] font-medium leading-[24px] tracking-[0.46px] text-left text-[#273240] mb-[10px]">Food and Drinks</h5>
+                        <div class="relative w-full bg-[#ECEFF5] h-[5px] rounded-[4px]">
+                            <div class="bg-[#31BA96] w-[40%] absolute top-0 left-0 h-full rounded-[4px]"></div>
+                            <div class="font-poppins text-[13px] tracking-[0.46px] absolute top-[-33px] right-0 font-normal text-[#273240] leading-[24px]">872.400</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5 class="font-poppins text-[13px] font-medium leading-[24px] tracking-[0.46px] text-left text-[#273240] mb-[10px]">Shopping</h5>
+                        <div class="relative w-full bg-[#ECEFF5] h-[5px] rounded-[4px]">
+                            <div class="bg-[#31BA96] w-[60%] absolute top-0 left-0 h-full rounded-[4px]"></div>
+                            <div class="font-poppins text-[13px] tracking-[0.46px] absolute top-[-33px] right-0 font-normal text-[#273240] leading-[24px]">1.378.200</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5 class="font-poppins text-[13px] font-medium leading-[24px] tracking-[0.46px] text-left text-[#273240] mb-[10px]">Housing</h5>
+                        <div class="relative w-full bg-[#ECEFF5] h-[5px] rounded-[4px]">
+                            <div class="bg-[#31BA96] w-[50%] absolute top-0 left-0 h-full rounded-[4px]"></div>
+                            <div class="font-poppins text-[13px] tracking-[0.46px] absolute top-[-33px] right-0 font-normal text-[#273240] leading-[24px]">928.500</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5 class="font-poppins text-[13px] font-medium leading-[24px] tracking-[0.46px] text-left text-[#273240] mb-[10px]">Transportation</h5>
+                        <div class="relative w-full bg-[#ECEFF5] h-[5px] rounded-[4px]">
+                            <div class="bg-[#31BA96] w-[35%] absolute top-0 left-0 h-full rounded-[4px]"></div>
+                            <div class="font-poppins text-[13px] tracking-[0.46px] absolute top-[-33px] right-0 font-normal text-[#273240] leading-[24px]">420.700</div>
+                        </div>
+                    </li>
+                    <li>
+                        <h5 class="font-poppins text-[13px] font-medium leading-[24px] tracking-[0.46px] text-left text-[#273240] mb-[10px]">Vehicle</h5>
+                        <div class="relative w-full bg-[#ECEFF5] h-[5px] rounded-[4px]">
+                            <div class="bg-[#31BA96] w-[40%] absolute top-0 left-0 h-full rounded-[4px]"></div>
+                            <div class="font-poppins text-[13px] tracking-[0.46px] absolute top-[-33px] right-0 font-normal text-[#273240] leading-[24px]">520.000</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="bg-[#EDF0F6] p-[30px] pt-[75px] rounded-[15px]">
+                    <div class="flex items-end justify-between mt-[-108px] mb-[18px]">
+                        <img src="./src/images/offer1.png" alt="img" class="w-[84.15px]">
+                        <img src="./src/images/offer2.png" alt="img" class="w-[52.25px]">
+                    </div>
+                    <h6 class="font-poppins text-[16px] font-semibold leading-[24px] tracking-[0.34px] text-[#273240] mb-[7px]">Save more money</h6>
+                    <p class="font-poppins text-[12px] font-normal leading-[21px] tracking-[0.42px] text-left text-[#404852] mb-[20px] opacity-[.75]">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+
+                    <button class="font-poppins text-[13px] font-semibold leading-[19.5px] tracking-[1.5px] text-center bg-[#101010] w-[200px] h-[45px] rounded-[5px] hover:bg-[#157AFF] cursor-pointer transition duration-150 ease-in-out text-[#fff] block">VIEW TIPS</button>
+                </div>
+            </div>
+         </main>
+         <!-- main content ends -->
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
